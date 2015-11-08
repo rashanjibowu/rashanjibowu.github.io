@@ -1,0 +1,15 @@
+/**
+ * Custom styles
+ */
+.sidebar {
+	width: 200px;
+	border: 1px solid gray;
+	float: left;
+	padding: 10px;
+}
+
+.content {
+	border: 1px solid blue;
+	float: left;
+	padding: 10px;
+}

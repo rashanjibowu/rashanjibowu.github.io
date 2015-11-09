@@ -1,1 +1,13 @@
-<section>This is content</section>
+<section>
+	<hr />
+	<h1 class="title center">{{title}}</h1>
+	<hr />
+	{{#each elements}}
+		<div class="element center">
+			<a title="{{title}}" href="#{{url}}">
+				<img alt="{{title}}" src="images/{{icon}}" />
+				<span>{{title}}</span>
+			</a>
+		</div>
+	{{/each}}
+</section>

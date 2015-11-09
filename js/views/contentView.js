@@ -2,13 +2,15 @@ define(["backbone", "text!../../templates/content.html", "handlebars"], function
 
 	return Backbone.View.extend({
 
-		initialize: function() {},
+		initialize: function(options) {
+			this.options = options;
+		},
 
 		className: "content",
 
 		render: function() {
 			var compiled = Handlebars.compile(template);
-			var html = compiled({});
+			var html = compiled(this.options);
 			this.$el.html(html);
 			return this;
 		}

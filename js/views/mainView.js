@@ -3,23 +3,28 @@ define(["backbone", "../views/navbarView", "../views/sidebarView", "../views/con
 
 	return Backbone.View.extend({
 
-		initialize: function() {
-			console.log("A view has been initialized!");
+		initialize: function(options) {
+			this.options = options;
 		},
 
 		el: "body",
 
 		render: function() {
 
+			this.$el.empty();
+
 			// render navigation
 			var navbarView = new NavbarView();
 			this.$el.append(navbarView.render().el);
 
 			// render sidebar
-			var sidebarView = new SidebarView();
-			this.$el.append(sidebarView.render().el);
+			if (this.options.showSidebar) {
+				var sidebarView = new SidebarView(this.options.sidebar);
+				this.$el.append(sidebarView.render().el);
+			}
 
-			var contentView = new ContentView();
+			// render the content
+			var contentView = new ContentView(this.options.content);
 			this.$el.append(contentView.render().el);
 
 			return this;

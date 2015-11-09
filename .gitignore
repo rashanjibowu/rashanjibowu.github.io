@@ -1,2 +1,5 @@
 # Ignore vendor distros
 bower_components/
+
+# Ignore interim image files
+*.xcf

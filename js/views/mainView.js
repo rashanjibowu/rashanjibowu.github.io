@@ -23,7 +23,6 @@ define(["backbone", "text!../../templates/main.html", "../views/sidebarView", ".
 			// render sidebar
 			if (this.options.showSidebar) {
 				var sidebarView = new SidebarView(this.options.sidebar);
-				//this.$el.append(sidebarView.render().el);
 				this.$(".sidebar").append(sidebarView.render().el);
 			}
 

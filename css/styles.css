@@ -65,3 +65,17 @@ hr {
 	font-style: italic;
 	color: rgba(0, 0, 0, 0.3);
 }
+
+/**
+ * Visualization styles
+ */
+rect.project {
+	stroke: white;
+	"stroke-width": 1;
+}
+
+circle.characteristic {
+	stroke: white;
+	"stroke-width": 1;
+	fill: red;
+}

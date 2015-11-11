@@ -1,12 +1,10 @@
-define(["backbone", "text!../../templates/content.html", "handlebars"], function(Backbone, template, Handlebars) {
+define(["backbone", "text!../../templates/portfolio.html", "handlebars"], function(Backbone, template, Handlebars) {
 
 	return Backbone.View.extend({
 
 		initialize: function(options) {
 			this.options = options;
 		},
-
-		tagName: "section",
 
 		className: "content",
 

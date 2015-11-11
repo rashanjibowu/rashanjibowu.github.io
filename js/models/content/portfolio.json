@@ -6,6 +6,162 @@
 	"content": {
 		"title": "Portfolio",
 		"class": "portfolio",
-		"subtitle": "I am very busy!"
+		"subtitle": "I am very busy!",
+		"projects": [
+			{
+				"icon": "icon.png",
+				"name": "Roadmapper",
+				"characteristics": [
+					{
+						"type": "Human-centered Design",
+						"description": "A description that matches the type"
+					},
+					{
+						"type": "Data-driven",
+						"description": "Mo data, mo problems"
+					},
+					{
+						"type": "Technical Leadership",
+						"description": "I eat code for breakfast"
+					},
+					{
+						"type": "Business Acumen",
+						"description": "I'm a business... man"
+					}
+				]
+			},
+			{
+				"icon": "icon.png",
+				"name": "Capital One Labs",
+				"characteristics": [
+					{
+						"type": "Human-centered Design",
+						"description": "A description that matches the type"
+					},
+					{
+						"type": "Data-driven",
+						"description": "Mo data, mo problems"
+					},
+					{
+						"type": "Technical Leadership",
+						"description": "I eat code for breakfast"
+					},
+					{
+						"type": "Business Acumen",
+						"description": "I'm a business... man"
+					}
+				]
+			},
+			{
+				"icon": "icon.png",
+				"name": "iHeartRadio",
+				"characteristics": [
+					{
+						"type": "Human-centered Design",
+						"description": "A description that matches the type"
+					},
+					{
+						"type": "Data-driven",
+						"description": "Mo data, mo problems"
+					},
+					{
+						"type": "Technical Leadership",
+						"description": "I eat code for breakfast"
+					},
+					{
+						"type": "Business Acumen",
+						"description": "I'm a business... man"
+					}
+				]
+			},
+			{
+				"icon": "icon.png",
+				"name": "CommonDividend",
+				"characteristics": [
+					{
+						"type": "Human-centered Design",
+						"description": "A description that matches the type"
+					},
+					{
+						"type": "Data-driven",
+						"description": "Mo data, mo problems"
+					},
+					{
+						"type": "Technical Leadership",
+						"description": "I eat code for breakfast"
+					},
+					{
+						"type": "Business Acumen",
+						"description": "I'm a business... man"
+					}
+				]
+			},
+			{
+				"icon": "icon.png",
+				"name": "CapNexus",
+				"characteristics": [
+					{
+						"type": "Human-centered Design",
+						"description": "A description that matches the type"
+					},
+					{
+						"type": "Data-driven",
+						"description": "Mo data, mo problems"
+					},
+					{
+						"type": "Technical Leadership",
+						"description": "I eat code for breakfast"
+					},
+					{
+						"type": "Business Acumen",
+						"description": "I'm a business... man"
+					}
+				]
+			},
+			{
+				"icon": "icon.png",
+				"name": "AYI.com",
+				"characteristics": [
+					{
+						"type": "Human-centered Design",
+						"description": "A description that matches the type"
+					},
+					{
+						"type": "Data-driven",
+						"description": "Mo data, mo problems"
+					},
+					{
+						"type": "Technical Leadership",
+						"description": "I eat code for breakfast"
+					},
+					{
+						"type": "Business Acumen",
+						"description": "I'm a business... man"
+					}
+				]
+			},
+			{
+				"icon": "icon.png",
+				"name": "Lemonade Baron",
+				"characteristics": [
+					{
+						"type": "Human-centered Design",
+						"description": "A description that matches the type"
+					},
+					{
+						"type": "Data-driven",
+						"description": "Mo data, mo problems"
+					},
+					{
+						"type": "Technical Leadership",
+						"description": "I eat code for breakfast"
+					},
+					{
+						"type": "Business Acumen",
+						"description": "I'm a business... man"
+					}
+				]
+			}
+		]
 	}
 }

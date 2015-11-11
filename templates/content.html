@@ -1,13 +1,22 @@
-<section>
-	<hr />
-	<h1 class="title center">{{title}}</h1>
-	<hr />
+<div class="row">
+	<div class="col-md-12">
+		<h1 class="title center">{{title}}</h1>
+		<hr />
+	</div>
+</div>
+
+<div class="row">
 	{{#each elements}}
+	<div class="col-md-4 {{../class}}">
 		<div class="element center">
 			<a title="{{title}}" href="#{{url}}">
 				<img alt="{{title}}" src="images/{{icon}}" />
 				<span>{{title}}</span>
 			</a>
+			{{#if date}}
+				<div class="date center">{{date}}</div>
+			{{/if}}
 		</div>
+	</div>
 	{{/each}}
-</section>
+</div>

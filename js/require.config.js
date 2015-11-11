@@ -4,7 +4,7 @@
 require.config({
 	baseUrl: 'js/libs',
 	paths: {
-		app: '../app'
+		init: '../init'
 	},
 	shim: {
 		backbone: {
@@ -18,6 +18,6 @@ require.config({
 });
 
 // start the app
-require(["app"], function(App) {
+require(["init"], function(App) {
 	App.start();
 });

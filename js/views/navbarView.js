@@ -4,6 +4,10 @@ define(["backbone", "text!../../templates/navbar.html", "handlebars"], function(
 
 		initialize: function() {},
 
+		tagName: "nav",
+
+		className: "navbar navbar-default",
+
 		render: function() {
 			var compiled = Handlebars.compile(template);
 			var html = compiled({});

@@ -1,0 +1,31 @@
+{
+	"showSidebar": true,
+	"sidebar": {
+		"text": "Here are my thoughts -- worth more than a penny"
+	},
+	"content": {
+		"title": "Articles",
+		"class": "articles",
+		"subtitle": "I like writing",
+		"elements": [
+			{
+				"title": "Article 1",
+				"url": "project1",
+				"icon": "code.png",
+				"date": "12/1/2014"
+			},
+			{
+				"title": "Article 2",
+				"url": "project2",
+				"icon": "code.png",
+				"date": "12/1/2014"
+			},
+			{
+				"title": "Article 3",
+				"url": "project3",
+				"icon": "code.png",
+				"date": "12/1/2014"
+			}
+		]
+	}
+}

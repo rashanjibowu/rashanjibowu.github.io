@@ -1,0 +1,40 @@
+{
+	"showSidebar": true,
+	"sidebar": {
+		"text": "I keep most of my projects in private repos away from prying eyes. However, every once in a while, I write code that the public can consume! Enjoy! And please let me know if you find any bugs by submitting an issue.",
+		"links": [
+			{
+				"title": "Check me out on GitHub!",
+				"url": "https://www.github.com/rashanjibowu",
+				"icon": "github.png"
+			}
+		]
+	},
+	"content": {
+		"title": "Code",
+		"class": "code",
+		"subtitle": "Code is pretty awesome",
+		"elements": [
+			{
+				"title": "Project 1",
+				"url": "project1",
+				"icon": "code.png"
+			},
+			{
+				"title": "Project 2",
+				"url": "project2",
+				"icon": "code.png"
+			},
+			{
+				"title": "Project 3",
+				"url": "project3",
+				"icon": "code.png"
+			},
+			{
+				"title": "Project 4",
+				"url": "project4",
+				"icon": "code.png"
+			}
+		]
+	}
+}

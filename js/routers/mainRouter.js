@@ -1,9 +1,23 @@
-define(["backbone", "../views/mainView"], function(Backbone, MainView) {
+define(["backbone",
+		"../views/app",
+		"text!../models/content/home.json",
+		"text!../models/content/portfolio.json",
+		"text!../models/content/techStack.json",
+		"text!../models/content/code.json",
+		"text!../models/content/articles.json",
+		"text!../models/content/presentations.json"],
+	function(Backbone,
+			 AppView,
+			 homeContent,
+			 portfolioContent,
+			 techStackContent,
+			 codeContent,
+			 articlesContent,
+			 presentationsContent) {
 
 	return Backbone.Router.extend({
 
 		initialize: function() {
-			console.log("A router has been initialized");
 			Backbone.history.start();
 		},
 
@@ -17,90 +31,33 @@ define(["backbone", "../views/mainView"], function(Backbone, MainView) {
 		},
 
 		home: function() {
-
-			var view = new MainView({
-				showSidebar: true,
-				sidebar: {
-					text: "The human-centered, data-driven, technically empowered product manager"
-				},
-				content: {
-					title: "Rashan Jibowu",
-					subtitle: "The human-centered, data-driven, technically empowered product manager",
-					elements: [
-						{
-							title: "Stuff I Worked On",
-							url: "portfolio",
-							icon: "code.png"
-						},
-						{
-							title: "Tech I Use",
-							url: "techstack",
-							icon: "code.png"
-						},
-						{
-							title: "Interesting Code",
-							url: "code",
-							icon: "code.png"
-						},
-						{
-							title: "Writings",
-							url: "articles",
-							icon: "code.png"
-						},
-						{
-							title: "Presentations",
-							url: "presentations",
-							icon: "code.png"
-						}
-					]
-				}
-			});
-
+			var view = new AppView(JSON.parse(homeContent));
 			view.render();
 		},
 
 		portfolio: function() {
-
-			var view = new MainView({
-				showSidebar: true,
-				sidebar: {
-					text: "Here is some stuff I am working on"
-				},
-				content: {
-					title: "Portfolio",
-					subtitle: "I am very busy!",
-				}
-			});
-
+			var view = new AppView(JSON.parse(portfolioContent));
 			view.render();
 		},
 
 		techStack: function() {
-
-			var view = new MainView({
-				showSidebar: true,
-				sidebar: {
-					text: "Javascript all the way!"
-				},
-				content: {
-					title: "TechStack",
-					subtitle: "I have a diversified tech stack",
-				}
-			});
-
+			var view = new AppView(JSON.parse(techStackContent));
 			view.render();
 		},
 
 		code: function() {
-			console.log("I love writing code...");
+			var view = new AppView(JSON.parse(codeContent));
+			view.render();
 		},
 
 		articles: function() {
-			console.log("Here are my thoughts - worth more than penny...");
+			var view = new AppView(JSON.parse(articlesContent));
+			view.render();
 		},
 
 		presentations: function() {
-			console.log("My presies!");
+			var view = new AppView(JSON.parse(presentationsContent));
+			view.render();
 		}
 	});
 

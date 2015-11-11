@@ -1,0 +1,38 @@
+{
+	"showSidebar": true,
+	"sidebar": {
+		"text": "The human-centered, data-driven, technically empowered product manager"
+	},
+	"content": {
+		"title": "Rashan Jibowu",
+		"class": "home",
+		"subtitle": "The human-centered, data-driven, technically empowered product manager",
+		"elements": [
+			{
+				"title": "Stuff I Worked On",
+				"url": "portfolio",
+				"icon": "code.png"
+			},
+			{
+				"title": "Tech I Use",
+				"url": "techstack",
+				"icon": "code.png"
+			},
+			{
+				"title": "Interesting Code",
+				"url": "code",
+				"icon": "code.png"
+			},
+			{
+				"title": "Writings",
+				"url": "articles",
+				"icon": "code.png"
+			},
+			{
+				"title": "Presentations",
+				"url": "presentations",
+				"icon": "code.png"
+			}
+		]
+	}
+}

@@ -1,4 +1,4 @@
-define(["backbone", "text!../../templates/portfolio.html", "handlebars"], function(Backbone, template, Handlebars) {
+define(["backbone", "text!../../templates/techStack.html", "handlebars"], function(Backbone, template, Handlebars) {
 
 	return Backbone.View.extend({
 

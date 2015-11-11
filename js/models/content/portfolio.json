@@ -1,0 +1,11 @@
+{
+	"showSidebar": true,
+	"sidebar": {
+		"text": "Here is some stuff I am working on"
+	},
+	"content": {
+		"title": "Portfolio",
+		"class": "portfolio",
+		"subtitle": "I am very busy!"
+	}
+}

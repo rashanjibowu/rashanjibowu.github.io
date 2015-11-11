@@ -1,0 +1,31 @@
+{
+	"showSidebar": true,
+	"sidebar": {
+		"text": "I present sometimes"
+	},
+	"content": {
+		"title": "Presentations",
+		"class": "presentations",
+		"subtitle": "I don't like presenting that much",
+		"elements": [
+			{
+				"title": "Presentation 1",
+				"url": "project1",
+				"icon": "code.png",
+				"date": "12/1/2014"
+			},
+			{
+				"title": "Prez 2",
+				"url": "project2",
+				"icon": "code.png",
+				"date": "12/1/2014"
+			},
+			{
+				"title": "P 3",
+				"url": "project3",
+				"icon": "code.png",
+				"date": "12/1/2014"
+			}
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"showSidebar": true,
+	"sidebar": {
+		"text": "Javascript all the way!"
+	},
+	"content": {
+		"title": "Tech Stack",
+		"class": "techStack",
+		"subtitle": "I have a diversified tech stack"
+	}
+}

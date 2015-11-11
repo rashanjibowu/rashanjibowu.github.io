@@ -1,0 +1,40 @@
+{
+	"showSidebar": true,
+	"sidebar": {
+		"text": "I like writing code",
+		"links": [
+			{
+				"title": "Check me out on GitHub!",
+				"url": "https://github.com",
+				"icon": "github.png"
+			}
+		]
+	},
+	"content": {
+		"title": "Code",
+		"class": "code",
+		"subtitle": "Code is pretty awesome",
+		"elements": [
+			{
+				"title": "Project 1",
+				"url": "project1",
+				"icon": "code.png"
+			},
+			{
+				"title": "Project 2",
+				"url": "project2",
+				"icon": "code.png"
+			},
+			{
+				"title": "Project 3",
+				"url": "project3",
+				"icon": "code.png"
+			},
+			{
+				"title": "Project 4",
+				"url": "project4",
+				"icon": "code.png"
+			}
+		]
+	}
+}

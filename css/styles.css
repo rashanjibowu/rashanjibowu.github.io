@@ -24,12 +24,7 @@ aside.sidebar {
 	height: 100%;
 	padding: 100px 20px 20px 20px;
 	background-color: #003366;
-	/*border-right: 1px solid rgba(0, 0, 0, 0.1);*/
 	color: white;
-}
-
-section.content {
-	border: 1px solid red;
 }
 
 .myhr {

@@ -11,21 +11,26 @@
 			{
 				"icon": "icon.png",
 				"name": "Roadmapper",
+				"description": "Make Roadmaps Easily",
 				"characteristics": [
 					{
 						"type": "Human-centered Design",
+						"class": "human-centered",
 						"description": "A description that matches the type"
 					},
 					{
 						"type": "Data-driven",
+						"class": "data-driven",
 						"description": "Mo data, mo problems"
 					},
 					{
 						"type": "Technical Leadership",
+						"type": "tech-leadership",
 						"description": "I eat code for breakfast"
 					},
 					{
 						"type": "Business Acumen",
+						"type": "business-acumen",
 						"description": "I'm a business... man"
 					}
 				]
@@ -33,21 +38,26 @@
 			{
 				"icon": "icon.png",
 				"name": "Capital One Labs",
+				"description": "Make Roadmaps Easily",
 				"characteristics": [
 					{
 						"type": "Human-centered Design",
+						"class": "human-centered",
 						"description": "A description that matches the type"
 					},
 					{
 						"type": "Data-driven",
+						"class": "data-driven",
 						"description": "Mo data, mo problems"
 					},
 					{
 						"type": "Technical Leadership",
+						"type": "tech-leadership",
 						"description": "I eat code for breakfast"
 					},
 					{
 						"type": "Business Acumen",
+						"type": "business-acumen",
 						"description": "I'm a business... man"
 					}
 				]
@@ -55,21 +65,26 @@
 			{
 				"icon": "icon.png",
 				"name": "iHeartRadio",
+				"description": "Make Roadmaps Easily",
 				"characteristics": [
 					{
 						"type": "Human-centered Design",
+						"class": "human-centered",
 						"description": "A description that matches the type"
 					},
 					{
 						"type": "Data-driven",
+						"class": "data-driven",
 						"description": "Mo data, mo problems"
 					},
 					{
 						"type": "Technical Leadership",
+						"type": "tech-leadership",
 						"description": "I eat code for breakfast"
 					},
 					{
 						"type": "Business Acumen",
+						"type": "business-acumen",
 						"description": "I'm a business... man"
 					}
 				]
@@ -77,21 +92,26 @@
 			{
 				"icon": "icon.png",
 				"name": "CommonDividend",
+				"description": "Make Roadmaps Easily",
 				"characteristics": [
 					{
 						"type": "Human-centered Design",
+						"class": "human-centered",
 						"description": "A description that matches the type"
 					},
 					{
 						"type": "Data-driven",
+						"class": "data-driven",
 						"description": "Mo data, mo problems"
 					},
 					{
 						"type": "Technical Leadership",
+						"type": "tech-leadership",
 						"description": "I eat code for breakfast"
 					},
 					{
 						"type": "Business Acumen",
+						"type": "business-acumen",
 						"description": "I'm a business... man"
 					}
 				]
@@ -99,21 +119,26 @@
 			{
 				"icon": "icon.png",
 				"name": "CapNexus",
+				"description": "Make Roadmaps Easily",
 				"characteristics": [
 					{
 						"type": "Human-centered Design",
+						"class": "human-centered",
 						"description": "A description that matches the type"
 					},
 					{
 						"type": "Data-driven",
+						"class": "data-driven",
 						"description": "Mo data, mo problems"
 					},
 					{
 						"type": "Technical Leadership",
+						"type": "tech-leadership",
 						"description": "I eat code for breakfast"
 					},
 					{
 						"type": "Business Acumen",
+						"type": "business-acumen",
 						"description": "I'm a business... man"
 					}
 				]
@@ -121,21 +146,26 @@
 			{
 				"icon": "icon.png",
 				"name": "AYI.com",
+				"description": "Make Roadmaps Easily",
 				"characteristics": [
 					{
 						"type": "Human-centered Design",
+						"class": "human-centered",
 						"description": "A description that matches the type"
 					},
 					{
 						"type": "Data-driven",
+						"class": "data-driven",
 						"description": "Mo data, mo problems"
 					},
 					{
 						"type": "Technical Leadership",
+						"type": "tech-leadership",
 						"description": "I eat code for breakfast"
 					},
 					{
 						"type": "Business Acumen",
+						"type": "business-acumen",
 						"description": "I'm a business... man"
 					}
 				]
@@ -143,21 +173,26 @@
 			{
 				"icon": "icon.png",
 				"name": "Lemonade Baron",
+				"description": "Make Roadmaps Easily",
 				"characteristics": [
 					{
 						"type": "Human-centered Design",
+						"class": "human-centered",
 						"description": "A description that matches the type"
 					},
 					{
 						"type": "Data-driven",
+						"class": "data-driven",
 						"description": "Mo data, mo problems"
 					},
 					{
 						"type": "Technical Leadership",
+						"type": "tech-leadership",
 						"description": "I eat code for breakfast"
 					},
 					{
 						"type": "Business Acumen",
+						"type": "business-acumen",
 						"description": "I'm a business... man"
 					}
 				]

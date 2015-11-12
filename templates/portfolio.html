@@ -1,6 +1,26 @@
 <!-- Template for portfolio view -->
-<section>
-	<h1 class="title center">{{title}}</h1>
-	<hr />
-	<div id="portfolio"></div>
-</section>
+<div class="row">
+	<div class="col-md-12">
+		<h1 class="title center">{{title}}</h1>
+		<hr />
+	</div>
+</div>
+
+<div class="row portfolio">
+	{{#each projects}}
+	<div class="col-md-4 {{../class}}">
+		<div class="panel panel-default">
+			<div class="panel-body center">
+				<img src="#" class="img-circle project-logo" />
+				<p class="title">{{name}}</p>
+				<p class="description">{{description}}</p>
+			</div>
+			<div class="panel-footer">
+				{{#each characteristics}}
+					<div class="circle characteristics {{type}}" data-toggle="popover" data-title="{{type}}" data-content="{{description}}" data-placement="auto" data-container="body" data-trigger="hover"></div>
+				{{/each}}
+			</div>
+		</div>
+	</div>
+	{{/each}}
+</div>

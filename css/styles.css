@@ -59,23 +59,40 @@ hr {
 	width: 120px;
 }
 
+.portfolio img.project-logo {
+	width: 120px;
+	height: 120px;
+	border: 1px solid red;
+	margin-bottom: 20px;
+}
+
+.portfolio .characteristics {
+	width: 48px;
+	height: 48px;
+	border: 1px solid orange;
+	float: left;
+	border-radius: 24px;
+	margin: 5px;
+}
+
+.portfolio .panel-footer {
+	overflow: hidden;
+}
+
+.portfolio .title {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.portfolio .description {
+	color: #003366;
+	font-style: italic;
+}
+
 .date {
 	padding: 15px;
 	font-weight: bold;
 	font-style: italic;
 	color: rgba(0, 0, 0, 0.3);
-}
-
-/**
- * Visualization styles
- */
-rect.project {
-	stroke: white;
-	"stroke-width": 1;
-}
-
-circle.characteristic {
-	stroke: white;
-	"stroke-width": 1;
-	fill: red;
 }

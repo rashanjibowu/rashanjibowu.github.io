@@ -97,6 +97,10 @@ hr {
 	color: rgba(0, 0, 0, 0.3);
 }
 
+/**
+ * Visualization styles
+ */
+
 .rim {
 	fill: none;
 	stroke-dasharray: 5 5;
@@ -115,4 +119,9 @@ hr {
 
 .data-side .rim {
 	stroke: green;
+}
+
+rect.client-side, rect.server-side, rect.data-side {
+	stroke: white;
+	stroke-width: 1;
 }

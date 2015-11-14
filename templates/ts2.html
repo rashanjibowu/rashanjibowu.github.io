@@ -1,22 +1,24 @@
 <!-- Template for tech stack view -->
-<div class="row">
-	<div class="col-md-12">
-		<h1 class="title center">{{title}}</h1>
-		<hr />
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h1 class="title center">{{title}}</h1>
+			<hr />
+		</div>
 	</div>
 </div>
-
-<div class="row techStack">
-	{{#each elements}}
-		<div class="col-md-4">
-			<div class="tile" id="{{name}}">
-				<div class="header shown">{{name}}</div>
-				<div class="body">{{benefit}}</div>
-				<div class="cover">
-					<p>Cover</p>
+<div class="container-fluid">
+	<div class="row techStack">
+		{{#each elements}}
+			<div class="col-md-4">
+				<div class="tile" id="{{name}}">
+					<div class="header shown">{{name}}</div>
+					<div class="body">{{benefit}}</div>
+					<div class="cover">
+						<img class="img-circle" src="images/white.png" />
+					</div>
 				</div>
 			</div>
-		</div>
-	{{/each}}
+		{{/each}}
+	</div>
 </div>
-

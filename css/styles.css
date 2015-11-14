@@ -145,15 +145,14 @@ foreignObject {
 }
 
 .tile {
-	border: 1px solid red;
-	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .tile .header {
 	padding: 10px;
 	background-color: #003366;
 	color: white;
-	height: 48px;
+	height: 40px;
 	text-transform: uppercase;
 	font-weight: bold;
 }
@@ -161,7 +160,7 @@ foreignObject {
 .tile .body, .tile .cover {
 	padding: 10px;
 	height: 150px;
-	/*overflow: auto;*/
+	text-align: center;
 }
 
 .tile .cover {

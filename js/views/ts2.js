@@ -10,6 +10,10 @@ define(["backbone", "text!../../templates/ts2.html", "handlebars"], function(Bac
 			'click .tile': 'click'
 		},
 
+		tagName: "section",
+
+		className: "content",
+
 		render: function() {
 			var compiled = Handlebars.compile(template);
 			var html = compiled(this.options);
@@ -22,14 +26,10 @@ define(["backbone", "text!../../templates/ts2.html", "handlebars"], function(Bac
 		},
 
 		click: function(event) {
-			console.log("Click registered!");
 
 			// get id of the tile that was clicked
-			console.log(event);
-
 			var target = event.currentTarget;
 			var id = $(target).attr("id");
-			console.log(id);
 
 			// slide up the cover
 			this.$el.find("#" + id + " .body").slideToggle();

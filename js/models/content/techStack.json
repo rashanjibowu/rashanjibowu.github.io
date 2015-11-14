@@ -31,6 +31,12 @@
 				"name": "r",
 				"benefit": "Benefit",
 				"icon": "icon.png"
+			},
+			{
+				"stack": "data",
+				"name": "jscript",
+				"benefit": "Benefit",
+				"icon": "icon.png"
 			}
 		]
 	}

@@ -6,6 +6,11 @@
 	"content": {
 		"title": "Tech Stack",
 		"class": "techStack",
-		"subtitle": "I have a diversified tech stack"
+		"subtitle": "I have a diversified tech stack",
+		"elements": [
+			{
+				"val": 4
+			}
+		]
 	}
 }

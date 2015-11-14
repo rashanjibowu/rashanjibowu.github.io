@@ -24,7 +24,7 @@ define(["backbone",
 		routes: {
 			"": "home",
 			"portfolio": "portfolio",
-			"stack": "techStack",
+			"techstack": "techStack",
 			"code": "code",
 			"articles": "articles",
 			"presentations": "presentations"

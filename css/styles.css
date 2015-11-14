@@ -96,3 +96,23 @@ hr {
 	font-style: italic;
 	color: rgba(0, 0, 0, 0.3);
 }
+
+.rim {
+	fill: none;
+	stroke-dasharray: 5 5;
+	stroke-width: 3;
+	rx: 10;
+	ry: 10;
+}
+
+.server-side .rim {
+	stroke: blue;
+}
+
+.client-side .rim {
+	stroke: orange;
+}
+
+.data-side .rim {
+	stroke: green;
+}

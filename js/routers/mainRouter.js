@@ -25,6 +25,7 @@ define(["backbone",
 			"": "home",
 			"portfolio": "portfolio",
 			"techstack": "techStack",
+			"ts2": "ts2",
 			"code": "code",
 			"articles": "articles",
 			"presentations": "presentations"
@@ -41,6 +42,11 @@ define(["backbone",
 		},
 
 		techStack: function() {
+			var view = new AppView(JSON.parse(techStackContent));
+			view.render();
+		},
+
+		ts2: function() {
 			var view = new AppView(JSON.parse(techStackContent));
 			view.render();
 		},

@@ -1,0 +1,22 @@
+<!-- Template for tech stack view -->
+<div class="row">
+	<div class="col-md-12">
+		<h1 class="title center">{{title}}</h1>
+		<hr />
+	</div>
+</div>
+
+<div class="row techStack">
+	{{#each elements}}
+		<div class="col-md-4">
+			<div class="tile" id="{{name}}">
+				<div class="header shown">{{name}}</div>
+				<div class="body">{{benefit}}</div>
+				<div class="cover">
+					<p>Cover</p>
+				</div>
+			</div>
+		</div>
+	{{/each}}
+</div>
+

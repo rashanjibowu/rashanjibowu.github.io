@@ -8,6 +8,7 @@ define(["backbone",
 		"../views/contentView",
 		"../views/portfolioView",
 		"../views/techStackView",
+		"../views/ts2",
 		"handlebars"],
 		function(Backbone,
 				 template,
@@ -15,6 +16,7 @@ define(["backbone",
 				 ContentView,
 				 PortfolioView,
 				 TechStackView,
+				 TilesView,
 				 Handlebars) {
 
 	return Backbone.View.extend({
@@ -47,6 +49,9 @@ define(["backbone",
 					break;
 				case "techStack":
 					contentView = new TechStackView(this.options.content);
+					break;
+				case "ts2":
+					contentView = new TilesView(this.options.content);
 					break;
 				default:
 					contentView = new ContentView(this.options.content);

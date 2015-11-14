@@ -22,6 +22,8 @@ define(["backbone", "text!../../templates/techStack.html", "handlebars", "d3"], 
 		// Contains D3 code that
 		visualize: function() {
 
+			var self = this;
+
 			var dimensions = {
 				outerWidth: 800,
 				outerHeight: 600,
@@ -239,7 +241,36 @@ define(["backbone", "text!../../templates/techStack.html", "handlebars", "d3"], 
 						width: dimensions.box.width,
 						height: dimensions.box.height,
 						class: "data-side"
+					})
+					.on("mouseover", function() {
+						self.showDetails("g.data-side");
+					})
+					.on("mouseout", function() {
+						d3.select("g.details").remove();
 					});
+		},
+
+		showDetails: function(details) {
+
+			var g = d3.select(details)
+				.append("g")
+				.attr({
+					class: 'details'
+				});
+
+			g.append("foreignObject")
+				.attr({
+					x: 10,
+					y: 10,
+					width: 220,
+					height: 120,
+					class: "details"
+				})
+				.append("xhtml:div")
+				.append('p')
+				.text(function() {
+					return 'This is a lot of text. I mean quite a lot of text. Enough text that should span multiple lines.'
+				});
 		}
 
 	});

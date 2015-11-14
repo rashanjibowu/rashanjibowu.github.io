@@ -125,3 +125,21 @@ rect.client-side, rect.server-side, rect.data-side {
 	stroke: white;
 	stroke-width: 1;
 }
+
+rect.details {
+	fill: white;
+	rx: 5;
+	ry: 5;
+	stroke: gray;
+	stroke-width: 2;
+}
+
+text.details {
+	fill: red;
+}
+
+foreignObject {
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}

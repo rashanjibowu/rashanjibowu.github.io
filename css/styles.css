@@ -146,11 +146,11 @@ foreignObject {
 
 .tile {
 	margin-top: 20px;
+	height: 200px;
 }
 
 .tile .header {
 	padding: 10px;
-	background-color: #003366;
 	color: white;
 	height: 40px;
 	text-transform: uppercase;
@@ -165,6 +165,9 @@ foreignObject {
 
 .tile .cover {
 	display: none;
-	background-color: #003366;
 	color: white;
 }
+
+.client 	{ background-color: red; }
+.server 	{ background-color: blue; }
+.data		{ background-color: #003366; }

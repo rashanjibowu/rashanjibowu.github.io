@@ -16,23 +16,27 @@
 		"subtitle": "Code is pretty awesome",
 		"elements": [
 			{
-				"title": "Project 1",
-				"url": "project1",
+				"title": "Pyramid.js",
+				"description": "Automatically make pyramids using D3.js",
+				"url": "https://www.github.com/rashanjibowu/pyramid",
 				"icon": "code.png"
 			},
 			{
-				"title": "Project 2",
-				"url": "project2",
+				"title": "R Website Generator",
+				"description": "Generate websites from a Yaml file and RMarkdown files!",
+				"url": "https://www.github.com/rashanjibowu/r_website_generator",
 				"icon": "code.png"
 			},
 			{
-				"title": "Project 3",
-				"url": "project3",
+				"title": "Enuff JS 4 D3",
+				"description": "A quick introductory course on Javascript that explains all that you need to know in order to get started with D3.js",
+				"url": "https://www.github.com/rashanjibowu/enuffjs4d3",
 				"icon": "code.png"
 			},
 			{
-				"title": "Project 4",
-				"url": "project4",
+				"title": "R Express",
+				"description": "An enhanced generator for Node/Express-based APIs and apps",
+				"url": "https://www.github.com/rashanjibowu/rexpress",
 				"icon": "code.png"
 			}
 		]

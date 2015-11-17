@@ -1,7 +1,7 @@
 {
 	"showSidebar": true,
 	"sidebar": {
-		"text": "Here are my thoughts -- worth more than a penny"
+		"text": "The pen is mightier than the sword. Regardless of whether you agree or disagree, share your own thoughts!"
 	},
 	"content": {
 		"title": "Articles",
@@ -9,22 +9,16 @@
 		"subtitle": "I like writing",
 		"elements": [
 			{
-				"title": "Article 1",
-				"url": "project1",
+				"title": "Building and Managing Data Products",
+				"url": "www.linkedin.com/in/rashanjibowu/posts",
 				"icon": "code.png",
-				"date": "12/1/2014"
+				"date": "11/1/2015"
 			},
 			{
-				"title": "Article 2",
-				"url": "project2",
+				"title": "CDFI v2.0: Vision of a New Generation",
+				"url": "www.linkedin.com/in/rashanjibowu/articles",
 				"icon": "code.png",
-				"date": "12/1/2014"
-			},
-			{
-				"title": "Article 3",
-				"url": "project3",
-				"icon": "code.png",
-				"date": "12/1/2014"
+				"date": "8/1/2011"
 			}
 		]
 	}

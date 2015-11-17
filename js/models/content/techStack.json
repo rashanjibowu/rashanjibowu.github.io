@@ -9,7 +9,34 @@
 		"subtitle": "I have a diversified tech stack",
 		"elements": [
 			{
-				"val": 4
+				"stack": "client",
+				"name": "javascript",
+				"benefit": "Benefit",
+				"icon": "icon.png"
+			},
+			{
+				"stack": "client",
+				"name": "backbone",
+				"benefit": "This is a sentence or two about the benefit / experience using this technology",
+				"icon": "icon.png"
+			},
+			{
+				"stack": "server",
+				"name": "node",
+				"benefit": "Benefit",
+				"icon": "icon.png"
+			},
+			{
+				"stack": "data",
+				"name": "r",
+				"benefit": "Benefit",
+				"icon": "icon.png"
+			},
+			{
+				"stack": "data",
+				"name": "jscript",
+				"benefit": "Benefit",
+				"icon": "icon.png"
 			}
 		]
 	}

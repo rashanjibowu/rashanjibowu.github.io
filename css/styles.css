@@ -97,6 +97,10 @@ hr {
 	color: rgba(0, 0, 0, 0.3);
 }
 
+/**
+ * Visualization styles
+ */
+
 .rim {
 	fill: none;
 	stroke-dasharray: 5 5;
@@ -116,3 +120,54 @@ hr {
 .data-side .rim {
 	stroke: green;
 }
+
+rect.client-side, rect.server-side, rect.data-side {
+	stroke: white;
+	stroke-width: 1;
+}
+
+rect.details {
+	fill: white;
+	rx: 5;
+	ry: 5;
+	stroke: gray;
+	stroke-width: 2;
+}
+
+text.details {
+	fill: red;
+}
+
+foreignObject {
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.tile {
+	margin-top: 20px;
+	height: 200px;
+}
+
+.tile .header {
+	padding: 10px;
+	color: white;
+	height: 40px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.tile .body, .tile .cover {
+	padding: 10px;
+	height: 150px;
+	text-align: center;
+}
+
+.tile .cover {
+	display: none;
+	color: white;
+}
+
+.client 	{ background-color: red; }
+.server 	{ background-color: blue; }
+.data		{ background-color: #003366; }

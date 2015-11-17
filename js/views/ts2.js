@@ -6,7 +6,6 @@ define(["backbone", "text!../../templates/ts2.html", "handlebars"], function(Bac
 		},
 
 		events: {
-			//'mouseover .tile': 'hover',
 			'click .tile': 'click'
 		},
 
@@ -19,10 +18,6 @@ define(["backbone", "text!../../templates/ts2.html", "handlebars"], function(Bac
 			var html = compiled(this.options);
 			this.$el.html(html);
 			return this;
-		},
-
-		hover: function(event) {
-			console.log(event);
 		},
 
 		click: function(event) {

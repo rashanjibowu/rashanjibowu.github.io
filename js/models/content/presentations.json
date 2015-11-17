@@ -13,7 +13,7 @@
 				"description": "A discussion about how product managers and data scientists can work effectively with each other",
 				"occasion": "Data Scientist Onboarding at Capital One",
 				"url": "https://www.github.com/rashanjibowu/presentations",
-				"icon": "code.png",
+				"icon": "presentation.png",
 				"date": "5/1/2015"
 			},
 			{
@@ -21,7 +21,7 @@
 				"description": "A discussion about the various new tech tools available to help people manage their money",
 				"occasion": "Milken Scholars Alumni of New York",
 				"url": "https://www.github.com/rashanjibowu/presentations",
-				"icon": "code.png",
+				"icon": "presentation.png",
 				"date": "11/1/2015"
 			},
 			{
@@ -29,7 +29,7 @@
 				"description": "A prediction about what careers in the financial services will be like in the next 5 years",
 				"occasion": "Milken Scholars Retreat",
 				"url": "https://www.github.com/rashanjibowu/presentations",
-				"icon": "code.png",
+				"icon": "presentation.png",
 				"date": "7/1/2014"
 			}
 		]

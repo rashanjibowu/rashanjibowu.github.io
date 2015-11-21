@@ -1,7 +1,7 @@
 {
 	"showSidebar": true,
 	"sidebar": {
-		"text": "Here is some stuff I am working on"
+		"text": "Each of my projects is born out of a human-centered understanding of a problem. The solution is always driven by data, often accompanied by my own technical contribution, and undoubtedly influenced by my business acumen."
 	},
 	"content": {
 		"title": "Portfolio",
@@ -38,7 +38,7 @@
 			{
 				"icon": "icon.png",
 				"name": "Capital One Labs",
-				"description": "Make Roadmaps Easily",
+				"description": "Reimagine Banking",
 				"characteristics": [
 					{
 						"type": "Human-centered Design",
@@ -65,7 +65,7 @@
 			{
 				"icon": "icon.png",
 				"name": "iHeartRadio",
-				"description": "Make Roadmaps Easily",
+				"description": "Radio everywhere!",
 				"characteristics": [
 					{
 						"type": "Human-centered Design",
@@ -92,7 +92,7 @@
 			{
 				"icon": "icon.png",
 				"name": "CommonDividend",
-				"description": "Make Roadmaps Easily",
+				"description": "Invest in what you care about",
 				"characteristics": [
 					{
 						"type": "Human-centered Design",
@@ -119,7 +119,7 @@
 			{
 				"icon": "icon.png",
 				"name": "CapNexus",
-				"description": "Make Roadmaps Easily",
+				"description": "Where capital and impact meet",
 				"characteristics": [
 					{
 						"type": "Human-centered Design",
@@ -146,7 +146,7 @@
 			{
 				"icon": "icon.png",
 				"name": "AYI.com",
-				"description": "Make Roadmaps Easily",
+				"description": "Dating for Grown Ups",
 				"characteristics": [
 					{
 						"type": "Human-centered Design",
@@ -173,7 +173,61 @@
 			{
 				"icon": "icon.png",
 				"name": "Lemonade Baron",
-				"description": "Make Roadmaps Easily",
+				"description": "Business Simulation",
+				"characteristics": [
+					{
+						"type": "Human-centered Design",
+						"class": "human-centered",
+						"description": "A description that matches the type"
+					},
+					{
+						"type": "Data-driven",
+						"class": "data-driven",
+						"description": "Mo data, mo problems"
+					},
+					{
+						"type": "Technical Leadership",
+						"type": "tech-leadership",
+						"description": "I eat code for breakfast"
+					},
+					{
+						"type": "Business Acumen",
+						"type": "business-acumen",
+						"description": "I'm a business... man"
+					}
+				]
+			},
+			{
+				"icon": "icon.png",
+				"name": "CityFirst Mission Lending",
+				"description": "Social impact investing platform",
+				"characteristics": [
+					{
+						"type": "Human-centered Design",
+						"class": "human-centered",
+						"description": "A description that matches the type"
+					},
+					{
+						"type": "Data-driven",
+						"class": "data-driven",
+						"description": "Mo data, mo problems"
+					},
+					{
+						"type": "Technical Leadership",
+						"type": "tech-leadership",
+						"description": "I eat code for breakfast"
+					},
+					{
+						"type": "Business Acumen",
+						"type": "business-acumen",
+						"description": "I'm a business... man"
+					}
+				]
+			},
+			{
+				"icon": "icon.png",
+				"name": "SplitIt!",
+				"description": "Easily split bills among friends",
 				"characteristics": [
 					{
 						"type": "Human-centered Design",

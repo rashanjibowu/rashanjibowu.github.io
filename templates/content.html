@@ -13,6 +13,14 @@
 				<img alt="{{title}}" src="images/{{icon}}" />
 				<span>{{title}}</span>
 			</a>
+			{{#if occasion}}
+				<p class="caption">{{occasion}}</p>
+			{{/if}}
+
+			{{#if description}}
+				<p class="description">{{description}}</p>
+			{{/if}}
+
 			{{#if date}}
 				<div class="date center">{{date}}</div>
 			{{/if}}

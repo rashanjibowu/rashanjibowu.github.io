@@ -7,8 +7,8 @@ body, html, .fullheight {
 }
 
 .navbar-brand img {
-	width: 24px;
-	height: 24px;
+	width: 36px;
+	height: 36px;
 }
 
 .navbar {
@@ -163,11 +163,31 @@ foreignObject {
 	text-align: center;
 }
 
-.tile .cover {
+.tile .body {
 	display: none;
-	color: white;
 }
 
-.client 	{ background-color: red; }
-.server 	{ background-color: blue; }
-.data		{ background-color: #003366; }
+.client 	{ background-color: rgba(207, 128, 128, 1.0); }
+.server 	{ background-color: rgba(128, 207, 128, 1.0); }
+.data		{ background-color: rgba(128, 128, 207, 1.0); }
+
+.top-logo {
+	max-width: 36px;
+	max-height: 36px;
+}
+
+.techStack .logo {
+	max-height: 125px;
+	max-width: 225px;
+}
+
+.caption {
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 0.9em;
+	margin-top: 0.9em;
+}
+
+.description {
+	margin-top: 1.2em;
+	font-size: 1.1em;
+}

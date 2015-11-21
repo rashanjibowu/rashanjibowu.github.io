@@ -1,7 +1,7 @@
 {
 	"showSidebar": true,
 	"sidebar": {
-		"text": "I present sometimes"
+		"text": "Every once in a while I get a chance to share my thoughts in front of larger groups. Here are some things I had to say..."
 	},
 	"content": {
 		"title": "Presentations",
@@ -9,22 +9,28 @@
 		"subtitle": "I don't like presenting that much",
 		"elements": [
 			{
-				"title": "Presentation 1",
-				"url": "project1",
-				"icon": "code.png",
-				"date": "12/1/2014"
+				"title": "Warning: Product Managers and Data Scientists at Work",
+				"description": "A discussion about how product managers and data scientists can work effectively with each other",
+				"occasion": "Data Scientist Onboarding at Capital One",
+				"url": "https://www.github.com/rashanjibowu/presentations",
+				"icon": "presentation.png",
+				"date": "5/1/2015"
 			},
 			{
-				"title": "Prez 2",
-				"url": "project2",
-				"icon": "code.png",
-				"date": "12/1/2014"
+				"title": "Financial Technology Options",
+				"description": "A discussion about the various new tech tools available to help people manage their money",
+				"occasion": "Milken Scholars Alumni of New York",
+				"url": "https://www.github.com/rashanjibowu/presentations",
+				"icon": "presentation.png",
+				"date": "11/1/2015"
 			},
 			{
-				"title": "P 3",
-				"url": "project3",
-				"icon": "code.png",
-				"date": "12/1/2014"
+				"title": "Careers in the Financial Services",
+				"description": "A prediction about what careers in the financial services will be like in the next 5 years",
+				"occasion": "Milken Scholars Retreat",
+				"url": "https://www.github.com/rashanjibowu/presentations",
+				"icon": "presentation.png",
+				"date": "7/1/2014"
 			}
 		]
 	}

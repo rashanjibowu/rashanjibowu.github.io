@@ -1,5 +1,6 @@
 /**
  * Custom styles
+ * http://colorschemedesigner.com/csd-3.5/#3m31Tw0w0w0w0
  */
 
 body, html, .fullheight {
@@ -23,7 +24,7 @@ div.sidebar {
 aside.sidebar {
 	height: 100%;
 	padding: 100px 20px 20px 20px;
-	background-color: #003366;
+	background-color: #37B6CE;
 	color: white;
 }
 
@@ -192,7 +193,7 @@ foreignObject {
 	font-size: 1.1em;
 }
 
-.panel-body {
+.home .panel-body {
 	height: 300px;
 }
 

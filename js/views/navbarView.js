@@ -6,7 +6,7 @@ define(["backbone", "text!../../templates/navbar.html", "handlebars"], function(
 
 		tagName: "nav",
 
-		className: "navbar navbar-default",
+		className: "navbar navbar-default navbar-inverse",
 
 		render: function() {
 			var compiled = Handlebars.compile(template);

@@ -191,3 +191,16 @@ foreignObject {
 	margin-top: 1.2em;
 	font-size: 1.1em;
 }
+
+.panel-body {
+	height: 300px;
+}
+
+.home .panel-footer {
+	text-transform: uppercase;
+}
+
+.home .panel-footer a {
+	color: gray;
+	text-shadow: 0px 0px 0px black;
+}

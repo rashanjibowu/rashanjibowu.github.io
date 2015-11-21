@@ -11,12 +11,12 @@
 			{
 				"title": "Stuff I Worked On",
 				"url": "portfolio",
-				"icon": "code.png"
+				"icon": "portfolio.png"
 			},
 			{
-				"title": "Tech I Use",
+				"title": "Tech Stack",
 				"url": "techstack",
-				"icon": "code.png"
+				"icon": "tools.png"
 			},
 			{
 				"title": "Interesting Code",
@@ -26,12 +26,12 @@
 			{
 				"title": "Writings",
 				"url": "articles",
-				"icon": "code.png"
+				"icon": "article.png"
 			},
 			{
 				"title": "Presentations",
 				"url": "presentations",
-				"icon": "code.png"
+				"icon": "presentation.png"
 			}
 		]
 	}

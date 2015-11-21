@@ -8,22 +8,30 @@
 <div class="row">
 	{{#each elements}}
 	<div class="col-md-4 {{../class}}">
-		<div class="element center">
-			<a title="{{title}}" href="#{{url}}">
-				<img alt="{{title}}" src="images/{{icon}}" />
-				<span>{{title}}</span>
-			</a>
-			{{#if occasion}}
-				<p class="caption">{{occasion}}</p>
-			{{/if}}
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<div class="element center">
+					<a title="{{title}}" href="#{{url}}">
+						<img alt="{{title}}" src="images/{{icon}}" />
+					</a>
+					{{#if occasion}}
+						<p class="caption">{{occasion}}</p>
+					{{/if}}
 
-			{{#if description}}
-				<p class="description">{{description}}</p>
-			{{/if}}
+					{{#if description}}
+						<p class="description">{{description}}</p>
+					{{/if}}
 
-			{{#if date}}
-				<div class="date center">{{date}}</div>
-			{{/if}}
+					{{#if date}}
+						<div class="date center">{{date}}</div>
+					{{/if}}
+				</div>
+			</div>
+			<div class="panel-footer center">
+				<a title="{{title}}" href="#{{url}}">
+					<span>{{title}}</span>
+				</a>
+			</div>
 		</div>
 	</div>
 	{{/each}}

@@ -2,3 +2,9 @@
 {{#each links}}
 	<a href="{{url}}" class="btn btn-danger">{{title}}</a>
 {{/each}}
+{{#each legend}}
+	<div class="legend">
+		<span class="characteristics {{class}}"></span>
+		<span class="characteristic-label">{{label}}</span>
+	</div>
+{{/each}}

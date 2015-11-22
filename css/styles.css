@@ -26,6 +26,7 @@ aside.sidebar {
 	padding: 170px 20px 20px 20px;
 	background-color: #37B6CE;
 	color: white;
+	overflow: auto;
 }
 
 .center {
@@ -34,6 +35,10 @@ aside.sidebar {
 
 .italic {
 	font-style: italic;
+}
+
+section.content .title {
+	color: #015666;
 }
 
 hr {
@@ -67,13 +72,68 @@ hr {
 	margin-bottom: 20px;
 }
 
-.portfolio .characteristics {
-	width: 48px;
-	height: 48px;
-	border: 1px solid orange;
-	float: left;
-	border-radius: 24px;
+.characteristics {
+	width: 36px;
+	height: 36px;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 18px;
 	margin: 5px;
+	float: left;
+}
+
+span.characteristics {
+	display: block;
+}
+
+.legend {
+	overflow: hidden;
+	position: relative;
+}
+
+.characteristic-label {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	line-height: 1.0em;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%)
+}
+
+.human-centered {
+	background-color: #04859D;
+	border-color: #015666;
+}
+
+.human-centered:hover {
+	background-color: #015666;
+}
+
+.tech-leadership {
+	background-color: #FFD373;
+	border-color: #BF9330;
+}
+
+.tech-leadership:hover {
+	background-color: #BF9330;
+}
+
+.business-acumen {
+	background-color: #FF8073;
+	border-color: #A61000;
+}
+
+.business-acumen:hover {
+	background-color: #A61000;
+}
+
+.data-driven {
+	background-color: #65E080;
+	border-color: #24913C;
+}
+
+.data-driven:hover {
+	background-color: #24913C;
 }
 
 .portfolio .panel-footer {
@@ -204,3 +264,4 @@ foreignObject {
 section.content {
 	padding-top: 70px;
 }
+

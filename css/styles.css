@@ -159,55 +159,58 @@ span.characteristics {
 }
 
 /**
- * Visualization styles
+ * Tech Stack Styles
+ * There are three areas to be styled: cover, header and body;
  */
-
-.rim {
-	fill: none;
-	stroke-dasharray: 5 5;
-	stroke-width: 3;
-	rx: 10;
-	ry: 10;
+.client-side {
+	border-color: #04859D;
+	background-color: #015666;
 }
 
-.server-side .rim {
-	stroke: blue;
+.client-side.header, .client-side.cover {
+	background-color: #04859D;
 }
 
-.client-side .rim {
-	stroke: orange;
+.client-side.body {
+	background-color: white;
+	color: #015666;
 }
 
-.data-side .rim {
-	stroke: green;
+.server-side {
+	border-color: #BF9330;
+	background-color: #FFD373;
 }
 
-rect.client-side, rect.server-side, rect.data-side {
-	stroke: white;
-	stroke-width: 1;
+.server-side.header, .server-side.cover {
+	background-color: #BF9330;
 }
 
-rect.details {
-	fill: white;
-	rx: 5;
-	ry: 5;
-	stroke: gray;
-	stroke-width: 2;
+.server-side.body {
+	background-color: white;
+	color: #BF9330;
 }
 
-text.details {
-	fill: red;
+.data-processing {
+	border-color: #65E080;
+	background-color: #24913C;
 }
 
-foreignObject {
-	padding: 10px;
-	border: 1px solid gray;
-	border-radius: 5px;
+.data-processing.header, .data-processing.cover {
+	background-color: #65E080;
+}
+
+.data-processing.body {
+	background-color: white;
+	color: #24913C;
 }
 
 .tile {
 	margin-top: 20px;
 	height: 200px;
+}
+
+.tile .cover {
+	line-height: 100px;
 }
 
 .tile .header {
@@ -216,21 +219,23 @@ foreignObject {
 	height: 40px;
 	text-transform: uppercase;
 	font-weight: bold;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 .tile .body, .tile .cover {
 	padding: 10px;
-	height: 150px;
+	height: 160px;
 	text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 .tile .body {
 	display: none;
+	border-width: 2px;
+	border-style: solid;
 }
-
-.client 	{ background-color: rgba(207, 128, 128, 1.0); }
-.server 	{ background-color: rgba(128, 207, 128, 1.0); }
-.data		{ background-color: rgba(128, 128, 207, 1.0); }
 
 .techStack .logo {
 	max-height: 125px;

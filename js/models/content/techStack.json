@@ -1,7 +1,21 @@
 {
 	"showSidebar": true,
 	"sidebar": {
-		"text": "These days, I am developing with a wide array of technologies across the full stack."
+		"text": "These days, I am developing with a wide array of technologies across the full stack.",
+		"legend": [
+			{
+				"class": "client-side",
+				"label": "Client Side"
+			},
+			{
+				"class": "server-side",
+				"label": "API / Server Side"
+			},
+			{
+				"class": "data-processing",
+				"label": "Data Processing"
+			}
+		]
 	},
 	"content": {
 		"title": "Tech Stack",
@@ -9,61 +23,61 @@
 		"subtitle": "I have a diversified tech stack",
 		"elements": [
 			{
-				"stack": "client",
+				"stack": "client-side",
 				"name": "javascript",
 				"benefit": "I grew up on the web... And Javascript is the language of the web. So, I basically speak Javascript.",
 				"icon": "js.png"
 			},
 			{
-				"stack": "client",
+				"stack": "client-side",
 				"name": "backbone",
 				"benefit": "Disorganized code is disgusting. Backbone gives me the flexibility to design my code in a way that makes sense for my apps, while keeping everything neat and organized. Jeremy Ashkenas is the man!",
 				"icon": "backbone.png"
 			},
 			{
-				"stack": "client",
+				"stack": "client-side",
 				"name": "html5",
 				"benefit": "Native development is a fad. I use HTML5 to build apps that run everywhere. Not everyone has an Android or iOS device, but most have access to a browser regardless of whether it lives on a phone, tablet, desktop, tv, etc.",
 				"icon": "html5.png"
 			},
 			{
-				"stack": "client",
+				"stack": "client-side",
 				"name": "css3",
 				"benefit": "I'm no designer, but CSS gives me the power to creatively express my ideas in visual ways. Functional CSS goes a long way in creating fantastic user experiences and is one of the secrets of human-centered design.",
 				"icon": "css3.png"
 			},
 			{
-				"stack": "client",
+				"stack": "client-side",
 				"name": "d3",
 				"benefit": "Visualizing data using D3 is fantastic. Of all of the data visualization technologies out there, D3 most enables me to leverage my Javascript skills and help others see insights through data visualization.",
 				"icon": "d3.png"
 			},
 			{
-				"stack": "server",
+				"stack": "server-side",
 				"name": "nodejs",
 				"benefit": "Asynchronous, server-side Javascript is a game-changer for Javascript developers! Now, there is nothing stopping us from going full stack!",
 				"icon": "nodejs.png"
 			},
 			{
-				"stack": "server",
+				"stack": "server-side",
 				"name": "expressjs",
 				"benefit": "Build APIs in minutes",
 				"icon": "expressjs.png"
 			},
 			{
-				"stack": "server",
+				"stack": "server-side",
 				"name": "mongo",
 				"benefit": "Mongo is pretty cool",
 				"icon": "mongodb.png"
 			},
 			{
-				"stack": "data",
+				"stack": "data-processing",
 				"name": "r",
 				"benefit": "I don't always do data science. But when I do, I prefer to use R! Yeah, python is cool, too, but R was built for manipulating data and conducting analysis. It's great for the my projects that require data processing.",
 				"icon": "r.png"
 			},
 			{
-				"stack": "data",
+				"stack": "data-processing",
 				"name": "javascript",
 				"benefit": "Javascript is awesome for data manipulation, too!",
 				"icon": "js.png"

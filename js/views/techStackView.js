@@ -6,7 +6,8 @@ define(["backbone", "text!../../templates/techstack.html", "handlebars"], functi
 		},
 
 		events: {
-			'click .tile': 'click'
+			'mouseenter .tile': 'onMouseOver',
+			'mouseleave .tile': 'onMouseOut'
 		},
 
 		tagName: "section",
@@ -20,27 +21,46 @@ define(["backbone", "text!../../templates/techstack.html", "handlebars"], functi
 			return this;
 		},
 
-		click: function(event) {
+		onMouseOver: function(event) {
+			event.preventDefault();
+			event.stopPropagation();
 
 			// get id of the tile that was clicked
 			var target = event.currentTarget;
 			var id = $(target).attr("id");
 
-			// slide up the cover
-			this.$el.find("#" + id + " .body").slideToggle();
-			this.$el.find("#" + id + " .cover").slideToggle();
+			var selected = this.$el.find("#" + id + " .header");
+
+			if (selected.hasClass("notshown")) {
+				// Adding header text
+				selected.removeClass("notshown");
+				selected.addClass("shown");
+				selected.text(id);
+
+				this.$el.find("#" + id + " .body").slideToggle();
+				this.$el.find("#" + id + " .cover").slideToggle();
+			}
+		},
+
+		onMouseOut: function(event) {
+			event.preventDefault();
+			event.stopPropagation();
+
+			// get id of the tile that was clicked
+			var target = event.currentTarget;
+			var id = $(target).attr("id");
 
 			var selected = this.$el.find("#" + id + " .header");
 
 			// change the header text
 			if (selected.hasClass("shown")) {
+				// Remove header text
 				selected.removeClass("shown");
 				selected.addClass("notshown");
 				selected.text("");
-			} else {
-				selected.removeClass("notshown");
-				selected.addClass("shown");
-				selected.text(id);
+
+				this.$el.find("#" + id + " .body").slideToggle();
+				this.$el.find("#" + id + " .cover").slideToggle();
 			}
 		}
 

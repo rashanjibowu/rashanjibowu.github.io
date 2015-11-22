@@ -1,7 +1,25 @@
 {
 	"showSidebar": true,
 	"sidebar": {
-		"text": "Each of my projects is born out of a human-centered understanding of a problem. The solution is always driven by data, often accompanied by my own technical contribution, and undoubtedly influenced by my business acumen."
+		"text": "Each of my projects is born out of a human-centered understanding of a problem. The solution is always driven by data, often accompanied by my own technical contribution, and undoubtedly influenced by my business acumen.",
+		"legend": [
+			{
+				"class": "human-centered",
+				"label": "Human-Centered Design"
+			},
+			{
+				"class": "tech-leadership",
+				"label": "Technical Leadership"
+			},
+			{
+				"class": "data-driven",
+				"label": "Data Driven"
+			},
+			{
+				"class": "business-acumen",
+				"label": "Business Acumen"
+			}
+		]
 	},
 	"content": {
 		"title": "Portfolio",
@@ -14,23 +32,23 @@
 				"description": "Make Roadmaps Easily",
 				"characteristics": [
 					{
-						"type": "Human-centered Design",
+						"type": "Human-Centered Design",
 						"class": "human-centered",
 						"description": "A description that matches the type"
 					},
 					{
-						"type": "Data-driven",
+						"type": "Data-Driven",
 						"class": "data-driven",
 						"description": "Mo data, mo problems"
 					},
 					{
 						"type": "Technical Leadership",
-						"type": "tech-leadership",
+						"class": "tech-leadership",
 						"description": "I eat code for breakfast"
 					},
 					{
 						"type": "Business Acumen",
-						"type": "business-acumen",
+						"class": "business-acumen",
 						"description": "I'm a business... man"
 					}
 				]
@@ -41,23 +59,23 @@
 				"description": "Reimagine Banking",
 				"characteristics": [
 					{
-						"type": "Human-centered Design",
+						"type": "Human-Centered Design",
 						"class": "human-centered",
 						"description": "A description that matches the type"
 					},
 					{
-						"type": "Data-driven",
+						"type": "Data-Driven",
 						"class": "data-driven",
 						"description": "Mo data, mo problems"
 					},
 					{
 						"type": "Technical Leadership",
-						"type": "tech-leadership",
+						"class": "tech-leadership",
 						"description": "I eat code for breakfast"
 					},
 					{
 						"type": "Business Acumen",
-						"type": "business-acumen",
+						"class": "business-acumen",
 						"description": "I'm a business... man"
 					}
 				]
@@ -68,23 +86,23 @@
 				"description": "Radio everywhere!",
 				"characteristics": [
 					{
-						"type": "Human-centered Design",
+						"type": "Human-Centered Design",
 						"class": "human-centered",
 						"description": "A description that matches the type"
 					},
 					{
-						"type": "Data-driven",
+						"type": "Data-Driven",
 						"class": "data-driven",
 						"description": "Mo data, mo problems"
 					},
 					{
 						"type": "Technical Leadership",
-						"type": "tech-leadership",
+						"class": "tech-leadership",
 						"description": "I eat code for breakfast"
 					},
 					{
 						"type": "Business Acumen",
-						"type": "business-acumen",
+						"class": "business-acumen",
 						"description": "I'm a business... man"
 					}
 				]
@@ -95,23 +113,23 @@
 				"description": "Invest in what you care about",
 				"characteristics": [
 					{
-						"type": "Human-centered Design",
+						"type": "Human-Centered Design",
 						"class": "human-centered",
 						"description": "A description that matches the type"
 					},
 					{
-						"type": "Data-driven",
+						"type": "Data-Driven",
 						"class": "data-driven",
 						"description": "Mo data, mo problems"
 					},
 					{
 						"type": "Technical Leadership",
-						"type": "tech-leadership",
+						"class": "tech-leadership",
 						"description": "I eat code for breakfast"
 					},
 					{
 						"type": "Business Acumen",
-						"type": "business-acumen",
+						"class": "business-acumen",
 						"description": "I'm a business... man"
 					}
 				]
@@ -122,23 +140,23 @@
 				"description": "Where capital and impact meet",
 				"characteristics": [
 					{
-						"type": "Human-centered Design",
+						"type": "Human-Centered Design",
 						"class": "human-centered",
 						"description": "A description that matches the type"
 					},
 					{
-						"type": "Data-driven",
+						"type": "Data-Driven",
 						"class": "data-driven",
 						"description": "Mo data, mo problems"
 					},
 					{
 						"type": "Technical Leadership",
-						"type": "tech-leadership",
+						"class": "tech-leadership",
 						"description": "I eat code for breakfast"
 					},
 					{
 						"type": "Business Acumen",
-						"type": "business-acumen",
+						"class": "business-acumen",
 						"description": "I'm a business... man"
 					}
 				]
@@ -149,23 +167,23 @@
 				"description": "Dating for Grown Ups",
 				"characteristics": [
 					{
-						"type": "Human-centered Design",
+						"type": "Human-Centered Design",
 						"class": "human-centered",
 						"description": "A description that matches the type"
 					},
 					{
-						"type": "Data-driven",
+						"type": "Data-Driven",
 						"class": "data-driven",
 						"description": "Mo data, mo problems"
 					},
 					{
 						"type": "Technical Leadership",
-						"type": "tech-leadership",
+						"class": "tech-leadership",
 						"description": "I eat code for breakfast"
 					},
 					{
 						"type": "Business Acumen",
-						"type": "business-acumen",
+						"class": "business-acumen",
 						"description": "I'm a business... man"
 					}
 				]
@@ -176,23 +194,23 @@
 				"description": "Business Simulation",
 				"characteristics": [
 					{
-						"type": "Human-centered Design",
+						"type": "Human-Centered Design",
 						"class": "human-centered",
 						"description": "A description that matches the type"
 					},
 					{
-						"type": "Data-driven",
+						"type": "Data-Driven",
 						"class": "data-driven",
 						"description": "Mo data, mo problems"
 					},
 					{
 						"type": "Technical Leadership",
-						"type": "tech-leadership",
+						"class": "tech-leadership",
 						"description": "I eat code for breakfast"
 					},
 					{
 						"type": "Business Acumen",
-						"type": "business-acumen",
+						"class": "business-acumen",
 						"description": "I'm a business... man"
 					}
 				]
@@ -203,23 +221,23 @@
 				"description": "Social impact investing platform",
 				"characteristics": [
 					{
-						"type": "Human-centered Design",
+						"type": "Human-Centered Design",
 						"class": "human-centered",
 						"description": "A description that matches the type"
 					},
 					{
-						"type": "Data-driven",
+						"type": "Data-Driven",
 						"class": "data-driven",
 						"description": "Mo data, mo problems"
 					},
 					{
 						"type": "Technical Leadership",
-						"type": "tech-leadership",
+						"class": "tech-leadership",
 						"description": "I eat code for breakfast"
 					},
 					{
 						"type": "Business Acumen",
-						"type": "business-acumen",
+						"class": "business-acumen",
 						"description": "I'm a business... man"
 					}
 				]
@@ -230,23 +248,23 @@
 				"description": "Easily split bills among friends",
 				"characteristics": [
 					{
-						"type": "Human-centered Design",
+						"type": "Human-Centered Design",
 						"class": "human-centered",
 						"description": "A description that matches the type"
 					},
 					{
-						"type": "Data-driven",
+						"type": "Data-Driven",
 						"class": "data-driven",
 						"description": "Mo data, mo problems"
 					},
 					{
 						"type": "Technical Leadership",
-						"type": "tech-leadership",
+						"class": "tech-leadership",
 						"description": "I eat code for breakfast"
 					},
 					{
 						"type": "Business Acumen",
-						"type": "business-acumen",
+						"class": "business-acumen",
 						"description": "I'm a business... man"
 					}
 				]

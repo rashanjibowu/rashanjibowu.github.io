@@ -159,10 +159,9 @@ span.characteristics {
 }
 
 .date {
-	padding: 15px;
 	font-weight: bold;
 	font-style: italic;
-	color: rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.4);
 }
 
 /**
@@ -252,7 +251,8 @@ span.characteristics {
 .caption {
 	color: rgba(0, 0, 0, 0.7);
 	font-size: 0.9em;
-	margin-top: 0.9em;
+	text-transform: uppercase;
+	margin-bottom: 0px;
 }
 
 .description {
@@ -275,5 +275,26 @@ span.characteristics {
 
 section.content {
 	padding-top: 70px;
+}
+
+.list img {
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.list .media-body {
+	padding: 15px 20px 20px 20px;
+}
+
+.list .logo {
+	padding-left: 40px;
+}
+
+.list li {
+	padding-bottom: 3.5em;
+}
+
+.list .description {
+	line-height: 1.6em;
 }
 

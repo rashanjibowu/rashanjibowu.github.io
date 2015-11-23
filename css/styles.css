@@ -197,16 +197,18 @@ span.characteristics {
 }
 
 .data-processing {
-	border-color: #65E080;
-	background-color: #24913C;
+	border-color: #24913C;
+	background-color: #65E080;
 }
 
 .data-processing.header, .data-processing.cover {
 	background-color: #65E080;
+	border-color: #65E080;
 }
 
 .data-processing.body {
 	background-color: white;
+	border-color: #65E080;
 	color: #24913C;
 }
 

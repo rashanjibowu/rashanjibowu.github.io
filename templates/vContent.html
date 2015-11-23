@@ -1,0 +1,39 @@
+<!--
+	Template for vertical content to be used for articles and presentations in a single vertical column
+-->
+<div class="row">
+	<div class="col-md-12">
+		<h1 class="title center">{{title}}</h1>
+		<hr />
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-12 {{../class}}">
+		<ul class="media-list list">
+		{{#each elements}}
+			<li class="media">
+				<div class="media-left logo">
+					<a title="{{title}}" href="#{{url}}">
+						<img class="media-object" src="images/{{icon}}" alt="{{title}}">
+					</a>
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading title">{{title}}</h4>
+					{{#if occasion}}
+						<p class="caption">{{occasion}}</p>
+					{{/if}}
+
+					{{#if date}}
+						<p class="date">{{date}}</p>
+					{{/if}}
+
+					{{#if description}}
+						<p class="description">{{description}}</p>
+					{{/if}}
+				</div>
+			</li>
+		{{/each}}
+		</ul>
+	</div>
+</div>

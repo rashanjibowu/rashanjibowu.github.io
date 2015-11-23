@@ -6,6 +6,7 @@ define(["backbone",
 		"text!../../templates/main.html",
 		"../views/sidebarView",
 		"../views/contentView",
+		"../views/vContentView",
 		"../views/portfolioView",
 		"../views/techStackView",
 		"handlebars"],
@@ -13,6 +14,7 @@ define(["backbone",
 				 template,
 				 SidebarView,
 				 ContentView,
+				 VerticalContentView,
 				 PortfolioView,
 				 TechStackView,
 				 Handlebars) {
@@ -47,6 +49,10 @@ define(["backbone",
 					break;
 				case "techStack":
 					contentView = new TechStackView(this.options.content);
+					break;
+				case "presentations":
+				case "articles":
+					contentView = new VerticalContentView(this.options.content);
 					break;
 				default:
 					contentView = new ContentView(this.options.content);

@@ -275,6 +275,10 @@ span.characteristics {
 	background-color: #37B6CE;
 }
 
+.home .panel-default:hover {
+	border-color: white;
+}
+
 .home .panel-body {
 	height: 300px;
 	background-color: #37B6CE;

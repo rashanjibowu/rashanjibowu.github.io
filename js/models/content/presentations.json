@@ -10,23 +10,23 @@
 		"elements": [
 			{
 				"title": "Warning: Product Managers and Data Scientists at Work",
-				"description": "A discussion about how product managers and data scientists can work effectively with each other",
+				"description": "Discusses how product managers and data scientists can work effectively with each other. While product managers are responsible for making sure that the team is building the right product, the data scientist, alongside other team contributors is responsible for building the product right!",
 				"occasion": "Data Scientist Onboarding at Capital One",
 				"url": "https://www.github.com/rashanjibowu/presentations",
 				"icon": "presentation.png",
 				"date": "5/1/2015"
 			},
 			{
-				"title": "Financial Technology Options",
-				"description": "A discussion about the various new tech tools available to help people manage their money",
+				"title": "Tools to Manage Your Money (in the 21st Century)",
+				"description": "Over the past 5 years, there has been significant innovation in the financial technology space, especially in the consumer space. For people looking for new tools to help manage their money and make great financial decisions, this presentation highlights the new tools on the block.",
 				"occasion": "Milken Scholars Alumni of New York",
 				"url": "https://www.github.com/rashanjibowu/presentations",
 				"icon": "presentation.png",
 				"date": "11/1/2015"
 			},
 			{
-				"title": "Careers in the Financial Services",
-				"description": "A prediction about what careers in the financial services will be like in the next 5 years",
+				"title": "Looking Forward: Careers in Financial Services",
+				"description": "Financial innovation is driving phenomenal change, especially in the way work gets done. This presentation offers a (bleak) projection over the next 5 years about what careers will look like in the financial services sectors and discusses some of the drivers of change.",
 				"occasion": "Milken Scholars Retreat",
 				"url": "https://www.github.com/rashanjibowu/presentations",
 				"icon": "presentation.png",

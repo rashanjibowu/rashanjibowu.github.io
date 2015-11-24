@@ -278,13 +278,18 @@ span.characteristics {
 	background-color: #37B6CE;
 }
 
+.home-bg h1.title {
+	color: #FFC440;
+	text-shadow: 1px 1px 1px #FF1800;
+}
+
 .home .panel-default, .home .panel-footer {
 	border-color: #37B6CE;
 	background-color: #37B6CE;
 }
 
 .home .panel-default:hover {
-	border-color: white;
+	border-color: #FFD373;
 }
 
 .home .panel-body {

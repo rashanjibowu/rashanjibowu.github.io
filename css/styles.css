@@ -12,6 +12,10 @@ body, html, .fullheight {
 	height: 24px;
 }
 
+.white-border {
+	border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
 .navbar {
 	margin-bottom: 0;
 }
@@ -81,6 +85,9 @@ hr {
 	width: 120px;
 }
 
+/**
+ * Portfolio styles
+ */
 .portfolio img.project-logo {
 	width: 120px;
 	height: 120px;
@@ -278,13 +285,18 @@ span.characteristics {
 	background-color: #37B6CE;
 }
 
+.home-bg h1.title {
+	color: #FFC440;
+	text-shadow: 1px 1px 1px #FF1800;
+}
+
 .home .panel-default, .home .panel-footer {
 	border-color: #37B6CE;
 	background-color: #37B6CE;
 }
 
 .home .panel-default:hover {
-	border-color: white;
+	border-color: #FFD373;
 }
 
 .home .panel-body {
@@ -297,14 +309,17 @@ span.characteristics {
 }
 
 .home .panel-footer a {
-	color: white;
-	text-shadow: 0px 0px 0px black;
+	color: #FFD373;
+	text-shadow: 1px 1px 1px #FF1800;
 }
 
 section.content {
 	padding-top: 70px;
 }
 
+/**
+ * List Styles
+ */
 .list img {
 	max-width: 150px;
 	max-height: 150px;

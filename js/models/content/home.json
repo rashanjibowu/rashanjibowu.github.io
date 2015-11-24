@@ -11,27 +11,27 @@
 			{
 				"title": "Stuff I Worked On",
 				"url": "portfolio",
-				"icon": "portfolio.png"
+				"icon": "portfolio_white.png"
 			},
 			{
 				"title": "Tech Stack",
 				"url": "techstack",
-				"icon": "tools.png"
+				"icon": "tools_white.png"
 			},
 			{
 				"title": "Interesting Code",
 				"url": "code",
-				"icon": "code.png"
+				"icon": "code_white.png"
 			},
 			{
 				"title": "Writings",
 				"url": "articles",
-				"icon": "article.png"
+				"icon": "article_white.png"
 			},
 			{
 				"title": "Presentations",
 				"url": "presentations",
-				"icon": "presentation.png"
+				"icon": "presentation_white.png"
 			}
 		]
 	}

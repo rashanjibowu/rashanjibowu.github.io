@@ -10,15 +10,15 @@
 		"elements": [
 			{
 				"title": "Building and Managing Data Products",
-				"url": "www.linkedin.com/in/rashanjibowu/posts",
-				"icon": "article.png",
+				"url": "https://www.linkedin.com/pulse/building-managing-great-data-products-rashan-jibowu?trk=prof-post",
+				"icon": "data_meets_products.png",
 				"date": "11/1/2015",
 				"description": "This article offers a working definition for data-driven products and clarifies some misconceptions about the value of data, data visualizations, and true products built on top of data."
 			},
 			{
 				"title": "CDFI v2.0: Vision of a New Generation",
-				"url": "www.linkedin.com/in/rashanjibowu/articles",
-				"icon": "article.png",
+				"url": "http://ofn.org/sites/default/files/resources/PDFs/Consulting/CDFIv2_FINAL.pdf",
+				"icon": "cdfiv2.0_new_gen.png",
 				"date": "8/1/2011",
 				"occasion": "Opportunity Finance Network",
 				"description": "Co-edited a white paper that presents a new vision for community development finance. Investments in talent development, competitive compensation, and non-profit asset building are among the chief recommendations."

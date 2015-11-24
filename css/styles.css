@@ -61,8 +61,16 @@ hr {
 	margin: 25px auto;
 }
 
+/**
+ * Code Styles
+ */
+
 .code img {
 	width: 120px;
+}
+
+.code .panel-body {
+	height: 270px;
 }
 
 .articles img {

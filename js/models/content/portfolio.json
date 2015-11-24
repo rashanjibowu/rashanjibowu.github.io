@@ -54,7 +54,7 @@
 				]
 			},
 			{
-				"icon": "icon.png",
+				"icon": "caplablogo.png",
 				"name": "Capital One Labs",
 				"description": "Reimagine Banking",
 				"characteristics": [
@@ -81,7 +81,7 @@
 				]
 			},
 			{
-				"icon": "icon.png",
+				"icon": "iheart_radio.png",
 				"name": "iHeartRadio",
 				"description": "Radio everywhere!",
 				"characteristics": [
@@ -108,7 +108,7 @@
 				]
 			},
 			{
-				"icon": "icon.png",
+				"icon": "common_dividend.jpg",
 				"name": "CommonDividend",
 				"description": "Invest in what you care about",
 				"characteristics": [
@@ -135,7 +135,7 @@
 				]
 			},
 			{
-				"icon": "icon.png",
+				"icon": "capnexus.png",
 				"name": "CapNexus",
 				"description": "Where capital and impact meet",
 				"characteristics": [
@@ -162,7 +162,7 @@
 				]
 			},
 			{
-				"icon": "icon.png",
+				"icon": "ayi.png",
 				"name": "AYI.com",
 				"description": "Dating for Grown Ups",
 				"characteristics": [
@@ -189,7 +189,7 @@
 				]
 			},
 			{
-				"icon": "icon.png",
+				"icon": "lemonade_baron.jpg",
 				"name": "Lemonade Baron",
 				"description": "Business Simulation",
 				"characteristics": [
@@ -216,7 +216,7 @@
 				]
 			},
 			{
-				"icon": "icon.png",
+				"icon": "cfe.jpg",
 				"name": "CityFirst Mission Lending",
 				"description": "Social impact investing platform",
 				"characteristics": [

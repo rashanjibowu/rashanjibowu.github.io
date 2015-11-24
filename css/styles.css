@@ -12,6 +12,10 @@ body, html, .fullheight {
 	height: 24px;
 }
 
+.white-border {
+	border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
 .navbar {
 	margin-bottom: 0;
 }

@@ -27,7 +27,7 @@
 		"subtitle": "I am very busy!",
 		"projects": [
 			{
-				"icon": "icon.png",
+				"icon": "roadmap.png",
 				"name": "Roadmapper",
 				"description": "Make Roadmaps Easily",
 				"characteristics": [
@@ -54,7 +54,7 @@
 				]
 			},
 			{
-				"icon": "caplablogo.png",
+				"icon": "caplablogo_gray.png",
 				"name": "Capital One Labs",
 				"description": "Reimagine Banking",
 				"characteristics": [
@@ -243,7 +243,7 @@
 				]
 			},
 			{
-				"icon": "icon.png",
+				"icon": "split.png",
 				"name": "SplitIt!",
 				"description": "Easily split bills among friends",
 				"characteristics": [

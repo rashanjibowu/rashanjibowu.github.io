@@ -34,130 +34,120 @@
 					{
 						"type": "Human-Centered Design",
 						"class": "human-centered",
-						"description": "A description that matches the type"
+						"description": "Roadmappper was designed from the perspective of product managers needing to communicate progress on their projects to a variety of stakeholders. Lots of customer listening, pain point observation, and user testing drove the in-market product."
 					},
 					{
 						"type": "Data-Driven",
 						"class": "data-driven",
-						"description": "Mo data, mo problems"
+						"description": "Roadmapper was built on top of the data APIs that power GitHub. Roadmapper is also a data product that provides product managers and there stakeholders with the right level of information they need to make important decisions."
 					},
 					{
 						"type": "Technical Leadership",
 						"class": "tech-leadership",
-						"description": "I eat code for breakfast"
+						"description": "On Roadmapper, I was the primary leader having written all of the front-end and server-side code, including the custom API integration."
 					},
 					{
 						"type": "Business Acumen",
 						"class": "business-acumen",
-						"description": "I'm a business... man"
+						"description": "Roadmapper uses the software-as-a-service business model to generate revenue and is marketed to product leaders in major corporations."
 					}
 				]
 			},
 			{
 				"icon": "caplablogo_gray.png",
 				"name": "Capital One Labs",
-				"description": "Reimagine Banking",
+				"description": "Re-imagine Banking / FinTech Innovation",
 				"characteristics": [
 					{
 						"type": "Human-Centered Design",
 						"class": "human-centered",
-						"description": "A description that matches the type"
+						"description": "Sorma was designed for analysts at Capital One who need detailed insight into customer's experiences. Countless hours of customer listening and user testing yielding a combination of features that are still in use today! One of the biggest user experience challenges was getting highly capable analysts to trust the data and analysis embedded into Sorma."
 					},
 					{
 						"type": "Data-Driven",
 						"class": "data-driven",
-						"description": "Mo data, mo problems"
+						"description": "Sorma is a data product that helps analysts visualize customer experience and find pain points in seconds. We even use data to drive the evolution of the product. Usage trends and query trends have a strong impact on the direction of this product's roadmap."
 					},
 					{
 						"type": "Technical Leadership",
 						"class": "tech-leadership",
-						"description": "I eat code for breakfast"
+						"description": "I serve primarily as a technical consultant offering advice on the tools that would be effective in delivering a performant, scalable solution."
 					},
 					{
 						"type": "Business Acumen",
 						"class": "business-acumen",
-						"description": "I'm a business... man"
+						"description": "In launching Sorma, I relied upon my entrepreneurial background to properly position and market the product internally to early adopters. By listening to the market and evolving the roadmap to deliver customer value, we were able to grow Sorma's user base."
 					}
 				]
 			},
 			{
 				"icon": "iheart_radio.png",
 				"name": "iHeartRadio",
-				"description": "Radio everywhere!",
+				"description": "On-line Music Streaming / Internet Radio",
 				"characteristics": [
 					{
 						"type": "Human-Centered Design",
 						"class": "human-centered",
-						"description": "A description that matches the type"
+						"description": "Worked on vastly improving the user experience while searching for and discovering music through a mix of technical and UI improvements."
 					},
 					{
 						"type": "Data-Driven",
 						"class": "data-driven",
-						"description": "Mo data, mo problems"
+						"description": "100% of all product decisions driven by data, including search patterns, search history, response to recommendations, conversion rate to listening experience, and length of subsequent listening sessions following a search result or suggestion."
 					},
 					{
 						"type": "Technical Leadership",
 						"class": "tech-leadership",
-						"description": "I eat code for breakfast"
+						"description": "Worked closely both both back-end and front-end teams to design, build, and coordinate the launch of new features."
 					},
 					{
 						"type": "Business Acumen",
 						"class": "business-acumen",
-						"description": "I'm a business... man"
+						"description": "Prioritized the development and release of new features based on customer impact and business value. For example, since iHeartRadio is advertising supported, features that improved the accuracy of search led to longer listening times and increased exposure to ads."
 					}
 				]
 			},
 			{
 				"icon": "common_dividend.jpg",
 				"name": "CommonDividend",
-				"description": "Invest in what you care about",
+				"description": "Invest in What You Care About",
 				"characteristics": [
 					{
 						"type": "Human-Centered Design",
 						"class": "human-centered",
-						"description": "A description that matches the type"
+						"description": "Designed for social impact investors seeking access to opportunities that created tangible impact in local communities."
 					},
 					{
 						"type": "Data-Driven",
 						"class": "data-driven",
-						"description": "Mo data, mo problems"
+						"description": "CommonDividend was a data product that combined insights and preferences from investors with available market opportunities and suggested matches based on a variety of factors. CommonDividend also experimented with proprietary algorithms designed to measure social impact."
 					},
 					{
 						"type": "Technical Leadership",
 						"class": "tech-leadership",
-						"description": "I eat code for breakfast"
+						"description": "Served as the Chief Technology Officer with responsibility for 100% of all code written (front-end and back-end)."
 					},
 					{
 						"type": "Business Acumen",
 						"class": "business-acumen",
-						"description": "I'm a business... man"
+						"description": "Leveraging my entrepreneurial, marketing, and operational backgrounds, CommonDividend was launched as a standalone software-as-a-service business."
 					}
 				]
 			},
 			{
 				"icon": "capnexus.png",
 				"name": "CapNexus",
-				"description": "Where capital and impact meet",
+				"description": "Innovation Meets Impact",
 				"characteristics": [
 					{
 						"type": "Human-Centered Design",
 						"class": "human-centered",
-						"description": "A description that matches the type"
-					},
-					{
-						"type": "Data-Driven",
-						"class": "data-driven",
-						"description": "Mo data, mo problems"
-					},
-					{
-						"type": "Technical Leadership",
-						"class": "tech-leadership",
-						"description": "I eat code for breakfast"
+						"description": "User testing and customer listening among partnership banks and investors (primary users) yielded important insights into the design of the service."
 					},
 					{
 						"type": "Business Acumen",
 						"class": "business-acumen",
-						"description": "I'm a business... man"
+						"description": "To properly price CapNexus, I needed to map out the value chain and explore several business models. Conducting market and competitive analyses, estimating supply and demand for community development loan capital, and building predictive models helped determined the right pricing model that created value for investor users as well as the business."
 					}
 				]
 			},
@@ -169,103 +159,68 @@
 					{
 						"type": "Human-Centered Design",
 						"class": "human-centered",
-						"description": "A description that matches the type"
+						"description": "User interviews, survey responses, and user comments played an important role in shaping the features that I launched."
 					},
 					{
 						"type": "Data-Driven",
 						"class": "data-driven",
-						"description": "Mo data, mo problems"
-					},
-					{
-						"type": "Technical Leadership",
-						"class": "tech-leadership",
-						"description": "I eat code for breakfast"
+						"description": "Every product feature was an A/B test. As a result, every feature that I launched proved its value (to a degree of statistical signficance) before being exposed to the full user-base."
 					},
 					{
 						"type": "Business Acumen",
 						"class": "business-acumen",
-						"description": "I'm a business... man"
+						"description": "Prioritized the development and delivery of features that improved monetization, user engagement, and user acquisition key performance indicators."
 					}
 				]
 			},
 			{
 				"icon": "lemonade_baron.jpg",
 				"name": "Lemonade Baron",
-				"description": "Business Simulation",
+				"description": "Financial Literacy / Business Simulation Game",
 				"characteristics": [
 					{
 						"type": "Human-Centered Design",
 						"class": "human-centered",
-						"description": "A description that matches the type"
-					},
-					{
-						"type": "Data-Driven",
-						"class": "data-driven",
-						"description": "Mo data, mo problems"
+						"description": "Tested numerous concepts with middle-school students to determine the right kind of game play that would lead to enhanced financial literacy. Abstracted away polished game art to a barebones minimally viable product in order to determine the level of difficulty, genre, game format, and game mechanics that were simultaneously fun and educational."
 					},
 					{
 						"type": "Technical Leadership",
 						"class": "tech-leadership",
-						"description": "I eat code for breakfast"
-					},
-					{
-						"type": "Business Acumen",
-						"class": "business-acumen",
-						"description": "I'm a business... man"
+						"description": "Wrote the game engine, secondary logic, and physics logic to implement the game. I also designed minimal 'art work' (if we can even call it that) to conduct the test."
 					}
 				]
 			},
 			{
 				"icon": "cfe.jpg",
 				"name": "CityFirst Mission Lending",
-				"description": "Social impact investing platform",
+				"description": "Mission Lending Platform",
 				"characteristics": [
 					{
 						"type": "Human-Centered Design",
 						"class": "human-centered",
-						"description": "A description that matches the type"
-					},
-					{
-						"type": "Data-Driven",
-						"class": "data-driven",
-						"description": "Mo data, mo problems"
-					},
-					{
-						"type": "Technical Leadership",
-						"class": "tech-leadership",
-						"description": "I eat code for breakfast"
+						"description": "Drafted initial designs for a first generation mission lending platform. Conducted primary research with potential business partners and customers to design a solution that efficiently matched investment opportunities with investors."
 					},
 					{
 						"type": "Business Acumen",
 						"class": "business-acumen",
-						"description": "I'm a business... man"
+						"description": "Planned the development and launch of the first U.S.-based mission lending platform."
 					}
 				]
 			},
 			{
 				"icon": "split.png",
 				"name": "SplitIt!",
-				"description": "Easily split bills among friends",
+				"description": "Easily Split Bills Among Friends",
 				"characteristics": [
 					{
 						"type": "Human-Centered Design",
 						"class": "human-centered",
-						"description": "A description that matches the type"
-					},
-					{
-						"type": "Data-Driven",
-						"class": "data-driven",
-						"description": "Mo data, mo problems"
+						"description": "Observed enough awkward situations with friends at the end of meals to learn that fairly and easily splitting bills is still a major problem!"
 					},
 					{
 						"type": "Technical Leadership",
 						"class": "tech-leadership",
-						"description": "I eat code for breakfast"
-					},
-					{
-						"type": "Business Acumen",
-						"class": "business-acumen",
-						"description": "I'm a business... man"
+						"description": "Designed and developed a native Android application that helps people settle up bills. Deployed to the Play Store."
 					}
 				]
 			}

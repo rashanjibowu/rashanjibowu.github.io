@@ -9,9 +9,9 @@
 	{{#each elements}}
 	<div class="col-md-4 {{../class}}">
 		<div class="panel panel-default" id="{{url}}">
-			<div class="panel-body {{../class}}">
+			<div class="panel-body">
 				<div class="element center">
-					<a title="{{title}}" href="#{{url}}">
+					<a title="{{title}}" href="{{url}}">
 						<img alt="{{title}}" src="images/{{icon}}" />
 					</a>
 					{{#if occasion}}
@@ -28,7 +28,7 @@
 				</div>
 			</div>
 			<div class="panel-footer center">
-				<a title="{{title}}" href="#{{url}}">
+				<a title="{{title}}" href="{{url}}">
 					<span>{{title}}</span>
 				</a>
 			</div>

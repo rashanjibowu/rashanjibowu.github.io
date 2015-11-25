@@ -1,4 +1,4 @@
-define(["backbone", "text!../../templates/portfolio.html", "handlebars", "bootstrap"], function(Backbone, template, Handlebars, Bootstrap) {
+define(["backbone", "text!../../templates/portfolio.html", "handlebars", "jquery", "bootstrap", ], function(Backbone, template, Handlebars, $, Bootstrap) {
 
 	return Backbone.View.extend({
 

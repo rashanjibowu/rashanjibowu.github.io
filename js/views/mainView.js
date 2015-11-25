@@ -58,13 +58,6 @@ define(["backbone",
 					contentView = new ContentView(this.options.content);
 			}
 
-			// add the blue background to the body when home is selected
-			if (this.options.content.class === "home") {
-				$("body").addClass("home-bg");
-			} else {
-				$("body").removeClass("home-bg");
-			}
-
 			this.$(".content").append(contentView.render().el);
 
 			return this;

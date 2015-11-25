@@ -18,25 +18,25 @@
 			{
 				"title": "Pyramid.js",
 				"description": "Automatically make pyramids using D3.js",
-				"url": "https://www.github.com/rashanjibowu/pyramid",
+				"url": "https://github.com/rashanjibowu/pyramid",
 				"icon": "code.png"
 			},
 			{
 				"title": "R Website Generator",
 				"description": "Generate websites from a Yaml file and RMarkdown files!",
-				"url": "https://www.github.com/rashanjibowu/r_website_generator",
+				"url": "https://github.com/rashanjibowu/r_website_generator",
 				"icon": "code.png"
 			},
 			{
 				"title": "Enuff JS 4 D3",
 				"description": "A quick introductory course on Javascript that explains all that you need to know in order to get started with D3.js",
-				"url": "https://www.github.com/rashanjibowu/enuffjs4d3",
+				"url": "https://github.com/rashanjibowu/enuffjs4d3",
 				"icon": "code.png"
 			},
 			{
 				"title": "R Express",
 				"description": "An enhanced generator for Node/Express-based APIs and apps",
-				"url": "https://www.github.com/rashanjibowu/rexpress",
+				"url": "https://github.com/rashanjibowu/RExpress",
 				"icon": "code.png"
 			}
 		]

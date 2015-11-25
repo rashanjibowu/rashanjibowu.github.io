@@ -50,7 +50,7 @@ aside.sidebar {
 
 section.content .title {
 	color: #015666;
-	text-shadow: 1px 1px 1px white;
+	text-shadow: 0px 1px 0px #04859D;
 }
 
 hr {
@@ -68,7 +68,6 @@ hr {
 /**
  * Code Styles
  */
-
 .code img {
 	width: 120px;
 }
@@ -285,40 +284,103 @@ span.characteristics {
 /**
  * Home page styles
  */
-.home-bg {
-	background-color: #37B6CE;
-}
-
-.home-bg h1.title {
-	color: #FFC440;
-	text-shadow: 1px 1px 1px #FF1800;
-}
-
-.home .panel-default, .home .panel-footer {
-	border-color: #37B6CE;
-	background-color: #37B6CE;
-}
-
-.home .panel-default:hover {
-	border-color: #FFD373;
-}
-
 .home .panel-body {
 	height: 300px;
-	background-color: #37B6CE;
 }
 
 .home .panel-footer {
 	text-transform: uppercase;
 }
 
-.home .panel-footer a {
-	color: #FFD373;
-	text-shadow: 1px 1px 1px #FF1800;
-}
-
 section.content {
 	padding-top: 70px;
+}
+
+#portfolio.panel-default, #presentations.panel-default {
+	border-color: #A67200;
+}
+
+#portfolio .panel-body, #presentations .panel-body {
+	background-color: #FFD373;
+}
+
+#portfolio .panel-body:hover, #presentations .panel-body:hover {
+	background-color: #A67200;
+}
+
+#portfolio .panel-footer, #presentations .panel-footer {
+	background-color: #A67200;
+	border-color: #A67200;
+}
+
+#portfolio .panel-footer a, #presentations .panel-footer a {
+	color: white;
+}
+
+#techstack.panel-default {
+	border-color: #04859D;
+}
+
+#techstack .panel-body {
+	background-color: #5FBDCE;
+}
+
+#techstack .panel-body:hover {
+	background-color: #04859D;
+	border-color: #04859D;
+}
+
+#techstack .panel-footer {
+	background-color: #04859D;
+	border-color: #04859D;
+}
+
+#techstack .panel-footer a {
+	color: white;
+}
+
+#code.panel-default {
+	border-color: #BF3D30;
+}
+
+#code .panel-body {
+	background-color: #FF8073;
+}
+
+#code .panel-body:hover {
+	background-color: #BF3D30;
+	border-color: #BF3D30;
+}
+
+#code .panel-footer {
+	background-color: #BF3D30;
+	border-color: #BF3D30;
+}
+
+#code .panel-footer a {
+	color: white;
+}
+
+#articles.panel-default {
+	border-color: #24913C;
+}
+
+#articles .panel-body {
+	background-color: #65E080;
+}
+
+#articles .panel-body:hover {
+	background-color: #24913C;
+	border-color: #24913C;
+}
+
+#articles .panel-footer {
+	background-color: #24913C;
+	border-color: #24913C;
+}
+
+#articles .panel-footer a {
+	color: white;
 }
 
 /**

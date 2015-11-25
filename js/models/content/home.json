@@ -10,27 +10,32 @@
 		"elements": [
 			{
 				"title": "Stuff I Worked On",
-				"url": "portfolio",
+				"url": "#portfolio",
+				"id": "portfolio",
 				"icon": "portfolio_white.png"
 			},
 			{
 				"title": "Tech Stack",
-				"url": "techstack",
+				"url": "#techstack",
+				"id": "techstack",
 				"icon": "tools_white.png"
 			},
 			{
 				"title": "Interesting Code",
-				"url": "code",
+				"url": "#code",
+				"id": "code",
 				"icon": "code_white.png"
 			},
 			{
 				"title": "Writings",
-				"url": "articles",
+				"url": "#articles",
+				"id": "articles",
 				"icon": "article_white.png"
 			},
 			{
 				"title": "Presentations",
-				"url": "presentations",
+				"url": "#presentations",
+				"id": "presentations",
 				"icon": "presentation_white.png"
 			}
 		]

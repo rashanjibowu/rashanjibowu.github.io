@@ -93,6 +93,10 @@ hr {
 	margin-bottom: 20px;
 }
 
+.portfolio .img-wrapper {
+	height: 120px;
+}
+
 .characteristics {
 	width: 36px;
 	height: 36px;
